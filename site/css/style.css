@@ -1,4 +1,9 @@
-
 body {
-    background-color: #F2F2F2;
+    background-color: black;
+    margin: 0px;
+}
+
+header {
+	background-image: url("img/header.png");
+	height: 120px;
 }
