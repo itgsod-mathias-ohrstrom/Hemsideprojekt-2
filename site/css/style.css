@@ -53,7 +53,7 @@ nav > ul > li > a {
 nav > img {
 	float: left;
 	position: absolute;
-	
+
 }
 
 .nav-list {
@@ -71,8 +71,8 @@ footer {
 	-moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 1.2);
 	box-shadow:         0px 3px 5px rgba(100, 100, 100, 1.2);
 }
-#Copyright_color {
-    color: gray;
+#copyright {
+    color: #454545;
 }
 
 .container {
@@ -92,3 +92,36 @@ footer {
 .main {
 	height: 500px;
 }
+
+/* Slider*/ 
+
+   #myCarousel {
+      margin-top: 0px;
+   }
+
+   .carousel-caption {
+      font-size: 24px;
+   }
+
+   .carousel-caption h4 {
+      font-size: 32px;
+   }
+
+   #myCarousel .item {
+      height: 400px;
+   }
+
+   #slide1 {
+      background: url('http://www.clker.com/cliparts/m/u/f/F/X/g/abstract-rainbow-background.svg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('http://www.clker.com/cliparts/m/u/f/F/X/g/abstract-rainbow-background.svg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('http://www.clker.com/cliparts/m/u/f/F/X/g/abstract-rainbow-background.svg') top center no-repeat;
+   }
+
+
+/*end slider*/
