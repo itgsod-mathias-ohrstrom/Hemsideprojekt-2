@@ -2,8 +2,12 @@ html, body {
     margin: 0px;
 }
 
+body {
+	background: url('site/img/background.png');
+}
+
 nav {
-	background-color: #2F809D;
+	background-color: #03A9F4;
 	border-width: 0;
 	height: 70px;
     width: auto;
@@ -48,17 +52,20 @@ nav > ul > li > a {
 
 nav > img {
 	float: left;
+	position: absolute;
+	
 }
 
 .nav-list {
+	position: absolute;
 	margin-bottom: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 250px;
+	margin-top: 25px;
 }
 
 footer {
     height: 70px;
-    background-color: #005E7F;    
+    background-color: #03A9F4;    
     width: auto;
     -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 1.2);
 	-moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 1.2);
@@ -74,6 +81,7 @@ footer {
 	box-shadow:         0px 3px 5px rgba(100, 100, 100, 1.2);
 	padding-right: 0px;
 	padding-left: 0px;
+
 }
 
 #content {
