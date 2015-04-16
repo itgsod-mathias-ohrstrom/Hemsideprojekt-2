@@ -85,7 +85,6 @@ footer {
 }
 
 #content {
-    height: 600px;
     background-color: white;
 }
 
@@ -125,3 +124,13 @@ footer {
 
 
 /*end slider*/
+
+.titel {
+	margin-left: 50px;
+}
+
+.text {
+	width: 400px;
+	margin-left: 50px;
+	float: left;
+}
