@@ -125,12 +125,9 @@ footer {
 
 /*end slider*/
 
-.titel {
-	margin-left: 50px;
-}
 
 .text {
-	width: 400px;
 	margin-left: 50px;
-	float: left;
+  margin-right: 50px;
+  text-align: center;
 }
