@@ -42,12 +42,13 @@ nav {
 nav > ul > li {
 	float: left;
 	list-style: none;
-	padding-right: 50px;
 	padding-left: auto;
 }
 
 nav > ul > li > a {
 	color: #fff;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 nav > img {
@@ -59,17 +60,18 @@ nav > img {
 .nav-list {
 	position: absolute;
 	margin-bottom: 0px;
-	margin-left: 250px;
+	margin-left: 300px;
 	margin-top: 25px;
 }
 
 @media (max-width: 991px) {
   .nav-list {
-    margin-left: 150px;
+    margin-left: 130px;
     
   }
-  .nav-list > li {
-    padding-right: 20px;
+  .nav-list > li > a{
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -162,12 +164,18 @@ footer {
 }
 
 @media (max-width: 360px) {
+  footer > a > img {
+    margin-left: -40px;
+  }
+  .logo {
+    display: none;
+  }
   .nav-list {
-    margin-left: 20px;
+    margin-left: -30px;
   }
 
   .nav-list > li {
-    padding-right: 10px;
+    padding-right: 0px;
   }
 
   .logo {
@@ -178,4 +186,46 @@ footer {
     margin: 0px;
     text-align: left;
   }
+}
+
+/* Hover animation*/
+.nav-li {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+.nav-li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .3s ease, background-color .3s ease;
+  margin-top: 20px;
+
+}
+.nav-li:hover:after {
+  width: 100%;
+  background: #ffffff;
+  margin-top: 20px;
+}
+
+/* Active */
+.active-li {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+
+}
+.active-li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  width: 100%;
+  background: #ffffff;
+  margin-top: 20px;
+
 }
