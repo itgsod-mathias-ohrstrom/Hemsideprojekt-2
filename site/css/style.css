@@ -201,7 +201,7 @@ footer {
   height: 3px;
   width: 0px;
   background: transparent;
-  transition: width .3s ease, background-color .3s ease;
+  transition: width .2s ease, background-color .2s ease;
   margin-top: 20px;
 
 }
@@ -227,5 +227,9 @@ footer {
   width: 100%;
   background: #ffffff;
   margin-top: 20px;
-
 }
+
+/* end index.html */
+
+/* Kurser.html */
+
