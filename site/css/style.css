@@ -245,14 +245,18 @@ footer {
 /* Kurser.html */
 .kurs-bild {
   float: left;
-  position: static;
-}
-
-.quote {
-  text-decoration: cur
+  margin-right: 10px;
 }
 
 .skiss{
   clear: left;
-  margin-top: 10px;
+  margin-top: 70px;
+}
+
+.titel{
+  text-align: center;
+}
+
+.kurs-text {
+  margin-left: 10px;
 }
