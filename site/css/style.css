@@ -280,9 +280,16 @@ footer {
 .om-oss-info {
   display: block;
 }
+/*endom_oss.html*/
+/*efter_skolan.html*/
+.kontor{
+  float: left;
+  margin-right: 10px;
+}
 
-
-
+.info-om-job{
+  display: block;
+}
 
 
 
