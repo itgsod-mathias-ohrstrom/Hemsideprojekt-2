@@ -197,6 +197,10 @@ footer {
     margin: 0px;
     text-align: left;
   }
+
+  .kurs-hr{
+    margin-top: 0px;
+  }
 }
 
 /* Hover animation*/
@@ -248,9 +252,13 @@ footer {
   margin-right: 10px;
 }
 
+.kurs-hr {
+  margin-top: 50px;
+}
+
 .skiss{
   clear: left;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .titel{
@@ -259,4 +267,88 @@ footer {
 
 .kurs-text {
   margin-left: 10px;
+}
+
+/*end kurser.html*/
+
+/*Om_oss.hmtl*/
+.personal{
+  float: left;
+  margin-right: 10px;
+}
+
+.om-oss-info {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media quries*/
+
+@media (max-width: 991px) {
+  .nav-list {
+    margin-left: 150px;
+    
+  }
+  .nav-list > li {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  footer > a > img {
+    margin-left: -40px;
+  }
+  .logo {
+    display: none;
+  }
+  .nav-list {
+    margin-left: -30px;
+  }
+
+  .nav-list > li {
+    padding-right: 0px;
+  }
+
+  .logo {
+    margin-left: -35px;
+  }
+
+  .text {
+    margin: 0px;
+    text-align: left;
+  }
+
+  .kurs-hr{
+    margin-top: 0px;
+  }
 }
