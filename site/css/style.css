@@ -291,13 +291,28 @@ footer {
   display: block;
 }
 
+/*Kontakt*/
 
+.wraper {
+  padding-right:  40px;
+  padding-left: 40px;
+  padding-top: 10px;
 
+}
 
+.input-group {
+  margin-bottom: 10px;
+}
 
+textarea {
+  width: 890px;
+  height: 200px;
+}
 
-
-
+.skicka {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 
@@ -321,6 +336,20 @@ footer {
 
 /* Media quries*/
 
+@media (max-width: 990px) {
+  textarea {
+    width: 890px;
+  }
+}
+
+@media (max-width: 360px) {
+  textarea {
+    width: 300px;
+  }
+}
+
+
+
 @media (max-width: 991px) {
   .nav-list {
     margin-left: 150px;
@@ -332,6 +361,7 @@ footer {
 }
 
 @media (max-width: 360px) {
+
   footer > a > img {
     margin-left: -40px;
   }
