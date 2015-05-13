@@ -2,10 +2,6 @@ html, body {
     margin: 0px;
 }
 
-body {
-	background: url('site/img/background.png');
-}
-
 hr {
     border: 0;
     height: 1px;
