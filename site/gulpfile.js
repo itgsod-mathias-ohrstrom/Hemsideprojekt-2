@@ -1,10 +1,11 @@
-var gulp = require('gulp');
-var minifyCss = require('gulp-minify-css');
-var uglify = require('gulp-uglify');
-var concatCss = require('gulp-concat-css');
-var gulpif = require('gulp-if');
-var sprite = require('css-sprite').stream;
+var gulp       = require('gulp');
+var minifyCss  = require('gulp-minify-css');
+var uglify     = require('gulp-uglify');
+var concatCss  = require('gulp-concat-css');
+var gulpif     = require('gulp-if');
+var sprite     = require('css-sprite').stream;
 var minifyHTML = require('gulp-minify-html');
+var plumber    = require('gulp-plumber');
 
 
 
@@ -37,16 +38,15 @@ gulp.task('sprites', function() {
 
 /*CSS Concat*/
 gulp.task('default', function() {
-  return gulp.src('./**/*.css')
-    .pipe(concatCss("styles/bundle.css"))
-    .pipe(gulp.dest('out/'));
+  return gulp.src('./*.css')
+    .pipe(concatCss("./dist/all.css"))
+    .pipe(gulp.dest('./dist'));
 });
-
 
 
 /*CSS Minifyer*/
 gulp.task('minify-css', function() {
-  return gulp.src('./css/*.css')
+  return gulp.src('./**/*.css')
     .pipe(minifyCss({
       compatibility: 'ie8'
     }))
