@@ -37,10 +37,10 @@ gulp.task('sprites', function() {
 
 
 /*CSS Concat*/
-gulp.task('default', function() {
-  return gulp.src('./*.css')
-    .pipe(concatCss("./dist/all.css"))
-    .pipe(gulp.dest('./dist'));
+gulp.task('concat-css', function () {
+  return gulp.src('dist/**/*.css')
+    .pipe(concatCss("styles/bundle.css"))
+    .pipe(gulp.dest('out/'));
 });
 
 
